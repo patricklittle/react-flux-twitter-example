@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+html {
+    font-size: 1.125em;
+}
+
+body {
+  background-color: white;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {
+    margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+.tweet-box {
+    max-width: 600px;
+    margin: auto;
+}
+
+form {
+    border: 1px solid #eee;
+    background: #eee;
+    margin-bottom: 2em;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.3em;
+    border: none;
+    background: #fff;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.button {
+	background-color: #333;
+    border: 1px solid #333;
+    color: #fff;
+	display: inline-block;
+	cursor: pointer;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.tweet-composer-controls {
+    padding: 15px;
+}
+
+.character-count {
+    font-size: small;
+    text-align: right;
+}
+
+.tweet {
+    margin-bottom: 2em;
+}
+
+.tweet-message {
+    font-family: 'Slabo 27px', serif;
+    font-size: 2em;
+}
+
+.tweet-meta {
+    font-size: small;
+}
+
+.tweet-meta a {
+    text-decoration: none;
+    color: #333;
+}
+
+.isliked {
+    background: pink;
+    color: #fff;
+}
+
+.isliked::after {
+    content: '\u2665';
+    margin-left: 5px;
+}
